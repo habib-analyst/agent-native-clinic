@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "onboarding": {
+    "firstRun": "off"
+  },
+  "doctor": {
+    "failOnBuild": false,
+    "dbToolScopingDenylist": {
+      "doctors": "Reference app: single-clinic deployment, no multi-tenancy by design; roster is shared public data.",
+      "appointments": "Reference app: single-clinic deployment, no multi-tenancy by design; front-desk schedule is shared across all surfaces.",
+      "triage_assessments": "Reference app: single-clinic deployment, no multi-tenancy by design; triage queue is shared across all surfaces."
+    }
+  }
+}
